@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">USB60BCR</string>
+    <string name="menu_serialinfo">Serial Info.</string>
+    <string name="menu_reconnect">Reconnect</string>
+    <string name="title_activity_main">USB60BCR</string>
+    <string name="Connected">USB Serial - Connected</string>
+    <string name="Notconnected">USB Serial - Not connected</string>
+    
+    <string-array name="stringArrayBaudrateList">
+        <item >2400</item>
+        <item >4800</item>
+        <item >9600</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+        <item >230400</item>
+    </string-array>
+    <string-array name="stringArrayDataBitList">
+        <item >7</item>
+        <item >8</item>
+    </string-array>
+    <string-array name="stringArrayParityBitList">
+        <item >None</item>
+        <item >Odd</item>
+        <item >Even</item>
+    </string-array>
+    <string-array name="stringArrayStopBitList">
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string-array name="stringArrayFlowControlList">
+        <item >None</item>
+        <item >RTS/CTS</item>
+    </string-array>
+    <string name="h_BaudRate">Baud Rate</string>
+    <string name="h_DataBit">Data Bit</string>
+    <string name="h_ParityBit">Parity</string>
+    <string name="h_StopBit">Stop Bit</string>
+    <string name="h_FlowControl">Flow Control</string>
+    <string name="b_Cancel">Cancel</string>
+    <string name="b_Set">Set</string>
+    <item type="integer" format="integer" name="i_flow_none">0</item>
+    <item type="integer" format="integer" name="i_flow_rtscts">1</item>
+    <string name="btn_ok">OK</string>
+    <string name="alert_end">Are you sure to terminate ?</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_terminate">Terminate</string>
+    <string name="alert_NotConnect">Cannot start RATOC USB Serial.\nPlease remove USB connector &amp; connect RATOC USB Serial.</string>
+    
+
+</resources>

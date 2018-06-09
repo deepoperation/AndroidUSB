@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/t_BaudRate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/h_BaudRate" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinnerBaudRate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/stringArrayBaudrateList" />
+
+    <EditText
+        android:id="@+id/t_DataBit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/h_DataBit" />
+
+    <Spinner
+        android:id="@+id/spinnerDataBit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/stringArrayDataBitList" />
+
+    <EditText
+        android:id="@+id/t_Parity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/h_ParityBit" />
+
+    <Spinner
+        android:id="@+id/spinnerParityBit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/stringArrayParityBitList" />
+
+    <EditText
+        android:id="@+id/t_StopBit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/h_StopBit" />
+
+    <Spinner
+        android:id="@+id/spinnerStopBit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/stringArrayStopBitList" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/h_FlowControl" />
+
+    <Spinner
+        android:id="@+id/spinnerFlowControl"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/stringArrayFlowControlList" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/b_Cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onBtnCancelClick"
+            android:text="@string/b_Cancel" />
+
+        <Button
+            android:id="@+id/b_Set"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onBtnSetClick"
+            android:text="@string/b_Set" />
+
+    </RelativeLayout>
+
+</LinearLayout>
